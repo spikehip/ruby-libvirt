@@ -6,11 +6,11 @@ require 'ruby/libvirt/version'
 Gem::Specification.new do |spec|
   spec.name          = "ruby-libvirt"
   spec.version       = Ruby::Libvirt::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.authors       = ["Yukihiro Matsumoto"]
+  spec.email         = ["libvir-list@redhat.com"]
+  spec.summary       = %q{Ruby support for libvirt}
+  spec.description   = %q{Use libvirt from ruby.}
+  spec.homepage      = "http://libvirt.org/ruby/documentation.html"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
