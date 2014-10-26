@@ -9,6 +9,7 @@
 # David Lutterkort <dlutter@redhat.com>
 
 # Rakefile for ruby-rpm -*- ruby -*-
+require "bundler/gem_tasks"
 require 'rake/clean'
 require 'rdoc/task'
 require 'rake/testtask'
