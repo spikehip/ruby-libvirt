@@ -8,7 +8,7 @@
 #
 # David Lutterkort <dlutter@redhat.com>
 
-require '_libvirt'
+#require '_libvirt'
 
 module Libvirt
 
